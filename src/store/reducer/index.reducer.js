@@ -1,10 +1,10 @@
-import {combineRedusers} from 'redux';
+import {combineReducers} from 'redux';
 import {
   questionsHasError,
   questionsHasLoading,
   questions} from './questions.reducer';
 
-export default combineRedusers({
+export default combineReducers({
   questionsHasError,
   questionsHasLoading,
   questions});
